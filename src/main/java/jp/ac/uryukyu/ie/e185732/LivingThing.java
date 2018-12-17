@@ -40,6 +40,10 @@ public class LivingThing {
         this.name = name;
     }
 
+    /**
+     * getterメソッドと同等。HPの値を得る。
+     * @return hitPoint
+     */
     public int getHitPoint() {
         return hitPoint;
     }
